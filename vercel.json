@@ -1,0 +1,14 @@
+{
+  "framework": "nextjs",
+  "functions": {
+    "pages/api/scrape-email.js": {
+      "maxDuration": 15
+    },
+    "pages/api/search.js": {
+      "maxDuration": 30
+    },
+    "pages/api/ai.js": {
+      "maxDuration": 30
+    }
+  }
+}
